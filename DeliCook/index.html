@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>DeliCook - Delivery & Recipes</title>
+</head>
+
+<body>
+    <!-- Início do header (menu de navegação) -->
+    <header>
+        <!-- Início da nav bar com os links de redirecionamento para as outras páginas do site -->
+        <nav>
+            <!-- Construção da logo 'Ramen.kuy' -->
+            <a href = "index.html">
+                <span class = "ramen-name">Ramen</span><span class = "kuy-name">.kuy</span>
+            </a>
+            <!-- Construção do menu mobile -->
+            <div class = "mobile-menu">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
+            <!-- Construção dos links de navegação -->
+            <ul class = "nav-links">
+                <li><a href = "index.html" class = "links" style = "color: #FF4A22;">Home</a></li>
+                <li><a href = "#" class = "links">How to Order</a></li>
+                <li><a href = "#" class = "links">Our Menu</a></li>
+                <li><a href = "#" class = "links">Our Recipes</a></li>
+                <li><a href = "#" class = "links">Contact Us</a></li>
+                <li><a href = "subscribe.html" class = "subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+        <!-- Fim da nav bar -->
+    </header>
+    <!-- Final do header -->
+
+    <!-- Início do main (conteúdo principal) -->
+    <main>
+        <!-- Início da primeira seção do conteúdo principal -->
+        <section class = "top">
+            <div>
+                <h1 class = "top-title">Delicious Food &<br>Recipes For Your Family</h1>
+                <p class = "top-info">Id cursus metus aliquam eleifend mi in nulla posuere.<br>Lorem faucibus vitae aliquet nec ullamcorper sit.</p>
+                <button class = "button">Order now</button>
+                <button class = "button">Join reseller</button>
+            </div>
+            <!-- Início da construção do carrossel de imagens -->
+            <div class = "carrossel">
+                <div class = "slides">
+                    <!-- Botões de Radio para o carrossel de imagens -->
+                    <input type = "radio" name = "radio-btn" id = "radio1">
+                    <input type = "radio" name = "radio-btn" id = "radio2">
+                    <input type = "radio" name = "radio-btn" id = "radio3">
+                    <!-- Imagens do carrossel -->
+                    <div class = "img first">
+                        <img src = "imagens/waffle-de-banana.jpg" alt = "Banana Waffle">
+                    </div>
+                    <div class = "img">
+                        <img src = "imagens/bolo-de-chocolate.jpg" alt = "Chocolate Cake">
+                    </div>
+                    <div class = "img">
+                        <img src = "imagens/cupcake-de-morango.jpg" alt = "Strawberry Cupcake">
+                    </div>
+                    <div class = "manual-nav">
+                        <label for = "radio1" class = "manual-btn"></label>
+                        <label for = "radio2" class = "manual-btn"></label>
+                        <label for = "radio3" class = "manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do carrossel de imagens -->
+        </section>
+        
+        <!-- Início da segunda seção do conteúdo principal -->
+        <section class = "middle-1">
+            <h1>Popular Menu</h1>
+            <a href = "menu.html" style = "color: #FF4A22;">View all ></a>
+        </section>
+    </main>
+    <!-- Final do main -->
+
+    <!-- Início do footer (rodapé) -->
+    <footer class = "footer">
+        <!-- Início da primeira divisão do footer -->
+        <section class = "footer-section-1">
+            <h2>DeliCook</h2>
+            <p class = "footer-text">Id cursus metus aliquam eleifend mi in<br>nulla posuere. Lorem faucibus vitae aliquet</p>
+        </section>
+        <!-- Início da segunda divisão do footer -->
+        <section class = "footer-section-2">
+            <!-- Primeira div da section 2 -->
+            <div>
+                <h3>About Us</h3>
+                <ul class = "ul-footer">
+                    <li><a href = "#" class = "footer-text">About DeliCook</a></li>
+                    <li><a href = "#" class = "footer-text">Partnerships</a></li>
+                    <li><a href = "#" class = "footer-text">Customer</a></li>
+                    <li><a href = "#" class = "footer-text">Privacy Policy</a></li>
+                    <li><a href = "#" class = "footer-text">Terms of Service</a></li>
+                </ul>
+            </div>
+            <!-- Segunda div da section 2 -->
+            <div>
+                <h3>Services</h3>
+                <ul class = "ul-footer">
+                    <li><a href = "#" class = "footer-text">Menu</a></li>
+                    <li><a href = "#" class = "footer-text">Recipe</a></li>
+                    <li><a href = "#" class = "footer-text">Delivery</a></li>
+                    <li><a href = "#" class = "footer-text">Resseller</a></li>
+                    <li><a href = "#" class = "footer-text">Course</a></li>
+                </ul>
+            </div>
+            <!-- Terceira div da section 2 -->
+            <div>
+                <h3>Contact Us</h3>
+                <ul class = "social-media-footer">
+                    <li><a href = "#"><img src = "imagens/LinkedIn.png" alt = "LinkeIn"></a></li>
+                    <li><a href = "#"><img src = "imagens/Twitter.png" alt = "Twitter"></a></li>
+                    <li><a href = "#"><img src = "imagens/Instagram.png" alt = "Instagram"></a></li>
+                    <li><a href = "#"><img src = "imagens/Facebook.png" alt = "Facebook"></a></li>
+                </ul>
+                <p>2022 ©delicook.com All right<br>reserved.</p>
+            </div>
+        </section>
+    </footer>
+    <!-- Final do footer-->
+
+    <script src = "script.js"></script> <!-- Chamada de interação com o arquivo script.js -->
+</body>
+
+</html>

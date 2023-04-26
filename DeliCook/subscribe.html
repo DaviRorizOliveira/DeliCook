@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link href = 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = 'stylesheet'>
+    <title>DeliCook - Delivery & Recipes</title>
+</head>
+
+<body>
+    <!-- Início do header (menu de navegação) -->
+    <header>
+        <!-- Início da nav bar com os links de redirecionamento para as outras páginas do site -->
+        <nav>
+            <!-- Construção da logo 'Ramen.kuy' -->
+            <a href = "index.html">
+                <span class = "ramen-name">Ramen</span><span class = "kuy-name">.kuy</span>
+            </a>
+            <!-- Construção do menu mobile -->
+            <div class = "mobile-menu">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
+            <!-- Construção dos links de navegação -->
+            <ul class = "nav-links">
+                <li><a href = "index.html" class = "links" style = "color: #FF4A22;">Home</a></li>
+                <li><a href = "#" class = "links">How to Order</a></li>
+                <li><a href = "#" class = "links">Our Menu</a></li>
+                <li><a href = "#" class = "links">Our Recipes</a></li>
+                <li><a href = "#" class = "links">Contact Us</a></li>
+                <li><a href = "subscribe.html" class = "subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+        <!-- Fim da nav bar -->
+    </header>
+    <!-- Final do header -->
+
+    <!-- Início do main (conteúdo principal) -->
+    <main>
+        <section class = "main-subscribe">
+            <!-- Formulário de login -->
+            <div class = "forms">
+                <div class>
+                    <h1 class = "login-tittle">Login</h1>
+                    <form action = "#">
+                        <div class = "field">
+                            <input type = "email" placeholder = "Email" id = "email" class = "input">
+                        </div>
+                        <div class = "field">
+                            <input type = "password" placeholder = "Password" id = "password" class = "password">
+                            <i class = 'bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class = "form-link">
+                            <a href = "#">Forgot password?</a>
+                        </div>
+                        <div class = "field">
+                            <button>Login</button>
+                        </div>
+                        <div class = "form-link">
+                            <span>Don't have an account? <a href = "#" class = "link">Signup</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Formulário de inscrição -->
+            <div class = "forms">
+                <div class>
+                    <h1 class = "login-tittle">Signup</h1>
+                    <form action = "#">
+                        <div class = "field">
+                            <input type = "text" placeholder = "Name" id = "name" class = "input">
+                        </div>
+                        <div class = "field">
+                            <input type = "email" placeholder = "Email" id = "email" class = "input">
+                        </div>
+                        <div class = "field">
+                            <input type = "password" placeholder = "Password" id = "password" class = "password">
+                            <i class = 'bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class = "field">
+                            <input type = "password" placeholder = "Confirm password" id = "password" class = "password">
+                            <i class = 'bx bx-hide eye-icon'></i>
+                        </div>
+                        <div class = "field">
+                            <input type = "text" placeholder = "Address" id = "address" class = "input">
+                        </div>
+                        <div class = "field">
+                            <button>Signup</button>
+                        </div>
+                        <div class = "form-link">
+                            <span>Already have an account? <a href = "#" class = "link">Login</a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Final do main -->
+
+    <!-- Início do footer (rodapé) -->
+    <footer class = "footer">
+        <!-- Início da primeira divisão do footer -->
+        <section class = "footer-section-1">
+            <h2>DeliCook</h2>
+            <p class = "footer-text">Id cursus metus aliquam eleifend mi in<br>nulla posuere. Lorem faucibus vitae aliquet</p>
+        </section>
+        <!-- Início da segunda divisão do footer -->
+        <section class = "footer-section-2">
+            <!-- Primeira div da section 2 -->
+            <div>
+                <h3>About Us</h3>
+                <ul class = "ul-footer">
+                    <li><a href = "#" class = "footer-text">About DeliCook</a></li>
+                    <li><a href = "#" class = "footer-text">Partnerships</a></li>
+                    <li><a href = "#" class = "footer-text">Customer</a></li>
+                    <li><a href = "#" class = "footer-text">Privacy Policy</a></li>
+                    <li><a href = "#" class = "footer-text">Terms of Service</a></li>
+                </ul>
+            </div>
+            <!-- Segunda div da section 2 -->
+            <div>
+                <h3>Services</h3>
+                <ul class = "ul-footer">
+                    <li><a href = "#" class = "footer-text">Menu</a></li>
+                    <li><a href = "#" class = "footer-text">Recipe</a></li>
+                    <li><a href = "#" class = "footer-text">Delivery</a></li>
+                    <li><a href = "#" class = "footer-text">Resseller</a></li>
+                    <li><a href = "#" class = "footer-text">Course</a></li>
+                </ul>
+            </div>
+            <!-- Terceira div da section 2 -->
+            <div>
+                <h3>Contact Us</h3>
+                <ul class = "social-media-footer">
+                    <li><a href = "#"><img src = "imagens/LinkedIn.png" alt = "LinkeIn"></a></li>
+                    <li><a href = "#"><img src = "imagens/Twitter.png" alt = "Twitter"></a></li>
+                    <li><a href = "#"><img src = "imagens/Instagram.png" alt = "Instagram"></a></li>
+                    <li><a href = "#"><img src = "imagens/Facebook.png" alt = "Facebook"></a></li>
+                </ul>
+                <p>2022 ©delicook.com All right<br>reserved.</p>
+            </div>
+        </section>
+    </footer>
+    <!-- Final do footer-->
+
+    <script src = "script.js"></script> <!-- Chamada de interação com o arquivo script.js -->
+</body>
+
+</html>
